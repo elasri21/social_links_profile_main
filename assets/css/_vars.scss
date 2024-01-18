@@ -1,0 +1,22 @@
+// primary colors
+$green: hsl(75, 94%, 57%);
+
+// Secondary colors
+$white: hsl(0, 0%, 100%);
+$grey: hsl(0, 0%, 20%);
+$dark-grey: hsl(0, 0%, 12%);
+$off-black: hsl(0, 0%, 8%);
+
+// color names to use
+$main-c: $green;
+$hv-bg: $green;// and address color
+$link-bg: $grey;
+$box-bg: $dark-grey;// and hover link color
+$main-bg: $off-black;
+
+
+// paragraph size
+$p-size: 14px;
+
+// font family
+$family: 'Inter', sans-serif;

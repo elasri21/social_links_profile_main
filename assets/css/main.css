@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+main {
+  background-color: #141414;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+main .container {
+  padding: 30px 20px;
+  border-radius: 6px;
+  background-color: #1f1f1f;
+}
+main .container .image-profile {
+  width: fit-content;
+  margin: 0 auto 30px;
+}
+main .container .image-profile img {
+  border-radius: 50%;
+}
+main .container .personel-info {
+  margin-bottom: 20px;
+}
+main .container .personel-info h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+main .container .personel-info p {
+  font-size: 14px;
+  color: #c5f82a;
+  font-size: 600;
+  text-transform: capitalize;
+}
+main .container .role {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+main .container .acounts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .container .acounts a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 8px 20px;
+  background-color: #333333;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  transition: .3s;
+}
+main .container .acounts a:hover {
+  color: #1f1f1f;
+  background-color: #c5f82a;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=main.css.map */

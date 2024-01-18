@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: $family;
+    text-align: center;
+}
+main {
+    background-color: $main-bg;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    .container {
+        padding: 30px 20px;
+        border-radius: 6px;
+        background-color: $box-bg;
+        .image-profile {
+            width: fit-content;
+            margin: 0 auto 30px;
+            img {
+                border-radius: 50%;
+            }
+        }
+        .personel-info {
+            margin-bottom: 20px;
+            h1 {
+                font-size: 20px;
+                font-weight: 700;
+                color: $white;
+                text-transform: capitalize;
+                margin-bottom: 10px;
+            }
+            p {
+                font-size: $p-size;
+                color: $main-c;
+                font-size: 600;
+                text-transform: capitalize;
+            }
+        }
+        .role {
+            font-size: $p-size;
+            color: $white;
+            margin-bottom: 15px;
+            font-weight: 400;
+        }
+        .acounts {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            a {
+                display: block;
+                width: 100%;
+                text-decoration: none;
+                padding: 8px 20px;
+                background-color: $link-bg;
+                border-radius: 6px;
+                font-size: $p-size;
+                font-weight: 600;
+                color: $white;
+                text-transform: capitalize;
+                transition: .3s;
+                &:hover {
+                    color: $box-bg;
+                    background-color: $main-c;
+                }
+            }
+        }
+    }
+
+}
+footer {
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
+}
