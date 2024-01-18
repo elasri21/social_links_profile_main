@@ -29,6 +29,8 @@ main .container .image-profile {
   margin: 0 auto 30px;
 }
 main .container .image-profile img {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 main .container .personel-info {
