@@ -16,7 +16,7 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     .container {
-        padding: 30px 20px;
+        padding: 40px 30px;
         border-radius: 6px;
         background-color: $box-bg;
         .image-profile {
@@ -29,14 +29,14 @@ main {
         .personel-info {
             margin-bottom: 20px;
             h1 {
-                font-size: 20px;
+                font-size: 26px;
                 font-weight: 700;
                 color: $white;
                 text-transform: capitalize;
                 margin-bottom: 10px;
             }
             p {
-                font-size: $p-size;
+                font-size: 15px;
                 color: $main-c;
                 font-size: 600;
                 text-transform: capitalize;
@@ -45,13 +45,13 @@ main {
         .role {
             font-size: $p-size;
             color: $white;
-            margin-bottom: 15px;
+            margin-bottom: 25px;
             font-weight: 400;
         }
         .acounts {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 15px;
             a {
                 display: block;
                 width: 100%;

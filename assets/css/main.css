@@ -20,7 +20,7 @@ main {
   padding-right: 20px;
 }
 main .container {
-  padding: 30px 20px;
+  padding: 40px 30px;
   border-radius: 6px;
   background-color: #1f1f1f;
 }
@@ -35,14 +35,14 @@ main .container .personel-info {
   margin-bottom: 20px;
 }
 main .container .personel-info h1 {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 700;
   color: white;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
 main .container .personel-info p {
-  font-size: 14px;
+  font-size: 15px;
   color: #c5f82a;
   font-size: 600;
   text-transform: capitalize;
@@ -50,13 +50,13 @@ main .container .personel-info p {
 main .container .role {
   font-size: 14px;
   color: white;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-weight: 400;
 }
 main .container .acounts {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 main .container .acounts a {
   display: block;
